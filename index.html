@@ -8,6 +8,7 @@
         <title> Portfolio 1 || Marco Sabatini</title>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
         <header>
@@ -78,8 +79,42 @@
             </div>
             <section class="athletical-section">
                 <img src="images/sabatini_img01.jpeg" alt="Marco playing" class="athlete-img">
-                <h2 class="overlay-txt">The other side of Marco</h2>
+                <div class="overlay-txt">
+                    <h2 >The other side of Marco</h2>
+                    <button class="show-cta" id="more-btn">
+                        <p class="p-2">show more</p>
+                        <i class="fa-solid fa-chevron-down fa-xl" style="color: #ffffff;"></i>
+                    </button>
+                </div>                    
+            </section>
+            <section class="more-content">
+                <div class="img-wrapper">
+                    <img src="images/sabatini_img01.jpeg" alt="Marco playing full height" class="full-img">
+                    <div class="more-txt">
+                        <h2>Marco Sabatini is a football player curerntly playing for Aramaeinska Syrianska</h2>
+                        <h2>Marco played in 5 different countries</h2>
+                    </div>
+                    <div class="exp-content">
+                        <h2>Previous Experiences:</h2>
+                        <div class="player-exp">
+                            <img src="images/marco-mazzarone2025.jpeg" class="profile-img" >
+                            <p class="p-2">Mazzarone Calcio</p>
+                        </div>
+                        <div class="player-exp">
+                            <img src="images/sabatini_img00.jpeg" class="profile-img">
+                            <p class="p-2">Österåker United</p>
+                        </div>
+                        <div class="player-exp">
+                            <img src="images/marco-assyriska2023.jpeg" class="profile-img">
+                            <p class="p-2">Assyriska FF</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
             </section>
         </main>
+    <script src="index.js"></script>
     </body>
 </html>
