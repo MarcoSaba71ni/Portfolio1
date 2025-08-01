@@ -1,3 +1,5 @@
+
+
 body {
     background-color: black;
 }
@@ -101,7 +103,7 @@ header h3 {
 .p-2, 
 .more-about p {
     font-size: 20px;
-    color: white;
+    color: grey;
     margin: 0;
     font-family: 'Inter';
     width: 100%;
@@ -126,6 +128,13 @@ header h3 {
     position: relative;
 }
 
+.flags {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 .more-about {
     display: none;
 }
@@ -148,7 +157,7 @@ header h3 {
     display: inline-block;
 }
 
-.athlete-gallery{
+.athlete-gallery {
     padding: 50px 0 0 10%;
     align-items: center;
     justify-content: center;
@@ -166,8 +175,8 @@ header h3 {
 .overlay-txt {
     text-align: center;    
     position: absolute;
-    top: 65%;   /* This places it 10% from the top of the image */
-    left: 35%;   /* This places it 5% from the left of the image */
+    top: 65%;
+    left: 35%; 
     color: white;
     padding: 1rem;
     border-radius: 8px;
@@ -207,10 +216,11 @@ header h3 {
 }
 
 .more-txt {
+
     color: white;
-    padding: 1rem;
+    padding: 10%;
     border-radius: 8px;
-    max-width: 90%;
+    max-width: 80%;
     z-index: 1;
 }
 
@@ -219,6 +229,12 @@ header h3 {
     flex: row;
     gap: 30px;
     padding: 30px 0;
+}
+
+.exp-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #hero-content {
@@ -244,7 +260,7 @@ header h3 {
 
 .less-about {
     width: 100%;
-    left: 20%;
+    padding-left: 110px;
     justify-content: center;
     text-align: center;
     align-items: center;
