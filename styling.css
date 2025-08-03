@@ -63,7 +63,6 @@ header h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -110,6 +109,15 @@ header h3 {
     flex-wrap: wrap;
 }
 
+.p-3 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    font-family: 'Inter';
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .p-link {
     font-size: 14px;
     font-family: 'Inter';
@@ -129,10 +137,11 @@ header h3 {
 }
 
 .flags {
-    padding-left: 80px;
+    justify-content: flex-end;
     display: flex;
     flex-direction: row;
     gap: 5px;
+    margin: 0;
 }
 
 .more-about {
@@ -149,7 +158,6 @@ header h3 {
 .project-txt {
     padding: 30px 0 50px 30px;
 }
-
 
 .athletical-section {
     padding: 50px 0;
@@ -231,7 +239,12 @@ header h3 {
     padding: 30px 0;
 }
 
+.highlight-div p {
+    padding: 15px;
+}
+
 .exp-txt {
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 15px;
