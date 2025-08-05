@@ -1,7 +1,18 @@
+@import url("media-queries.css");
+
+
+:root {
+  --bg-color: #0D0D0D;
+  --primary-accent: #00FF85;
+  --secondary-accent: #FF6B35;
+  --text-color: #FFFFFF;
+  --subtext-color: #B0B0B0;
+  --link-hover: #00C97E;
+}
 
 
 body {
-    background-color: black;
+    background-color: #0D0D0D;
 }
 
 h2 , h1 {
@@ -19,10 +30,8 @@ h1 {
     margin: 2rem auto; 
     padding: 2rem; 
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap; 
-    gap: 2rem;
-    border: 2px solid white;
-    border-radius: 12px;
     box-sizing: border-box; 
     overflow-x: hidden;
 }
@@ -38,7 +47,7 @@ h1 {
 }
 
 .container-txt p {
-    width: 80%;
+    width: 70%;
 }
 
 header h3 {
@@ -63,12 +72,13 @@ header h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-evenly;
 }
 
 .web-card {
     width: 300px;
-    height: 350px;
+    height: auto;
     background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -130,10 +140,9 @@ header h3 {
 
 .about-txt {
     width: 80%;
-    padding: 30px 0 70px 0;
+    padding: 30px 0 0 0;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .flags {
@@ -150,9 +159,12 @@ header h3 {
 
 .more-btn {
     text-align: center;
-    position: absolute;
-    top: 70%;
-    left: 55%;
+}
+
+.less-about {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .project-txt {
@@ -181,16 +193,18 @@ header h3 {
 }
 
 .overlay-txt {
-    text-align: center;    
     position: absolute;
     top: 65%;
-    left: 35%; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
     color: white;
     padding: 1rem;
     border-radius: 8px;
     max-width: 90%;
     z-index: 1;
 }
+
 
 .show-cta {
     background: none;
@@ -266,14 +280,6 @@ header h3 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.less-about {
-    width: 100%;
-    padding-left: 110px;
     justify-content: center;
     text-align: center;
     align-items: center;

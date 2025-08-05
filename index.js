@@ -5,6 +5,7 @@ const moreAbout = document.getElementById("more-about");
 const aboutLess = document.getElementById("about-less");
 const lessAbout = document.getElementById("less-about");
 const aboutTxt = document.getElementById("about-txt");
+const divMore = document.getElementById("div-more");
 
 aboutBtn.addEventListener("click", () => {
   moreAbout.style.display = "block";
@@ -17,7 +18,6 @@ lessAbout.addEventListener("click", () => {
   moreAbout.style.display = "none";
   lessAbout.style.display = "none";
   aboutBtn.style.display = "block";
-  moreAbout.scrollIntoView ({behavior: "smooth"});
 })
 
 // Other Side Section

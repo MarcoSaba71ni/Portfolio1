@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="media-queries.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -25,26 +26,26 @@
             </div>
             <section class="about-txt" id="about-txt">
                 <h2>About Marco:</h2>
-                <h3>Born and raised in the tropical city of Rio de Janeiro 🌴, Marco now calls Stockholm home. With a strong athletic background ⚽ and a growing passion for Web Development 💻 he is currently pursuing a Frontend Developer degree at the Norwegian University <a href="https://www.noroff.no/en/">Noroff</a>.</h3>
+                <h3>Born and raised in the tropical city of Rio de Janeiro 🌴, Marco now calls Stockholm home. With a strong athletic background ⚽ and a growing passion for Web Development 💻 he is currently pursuing a Frontend Developer degree at the Norwegian University <a href="https://www.noroff.no/en/" target="_blank" rel="noopener noreferrer">Noroff</a>.</h3>
                 <div class="more-about" id="more-about">
                     <p class="p-2">"Through the sport, I’ve had the chance to live in several countries, immerse myself in diverse cultures, and naturally develop language skills. Speaking 5 languages, Sabatini developed very important skills that are much valuable on the actual world."</p>
                     <div class="flags">
                         <i><span class="fi fi-br"></span></i> <span class="fi fi-it"></span> <span class="fi fi-es"></span>  <span class="fi fi-se"></span> <span class="fi fi-gb"></span></span>
                     </div>
                 </div>
-                <div class="more-btn" >
-                    <button class="show-cta" id="about-btn">
-                        <p class="p-2">show more</p>
-                        <i class="fa-solid fa-chevron-down fa-xl" style="color: #ffffff;"></i>
-                    </button>
-                </div>
-                <div class="less-about" id="less-about">
-                    <button class="show-cta" id="about-less">
-                        <i class="fa-solid fa-chevron-up fa-xl" style="color: #ffffff;"></i>
-                        <p class="p-2">show less</p>
-                    </button>
-                </div>
             </section>
+            <div class="more-btn" id="div-more" >
+                <button class="show-cta" id="about-btn">
+                    <p class="p-2">show more</p>
+                    <i class="fa-solid fa-chevron-down fa-xl" style="color: #ffffff;"></i>
+                </button>
+            </div>
+            <div class="less-about" id="less-about">
+                <button class="show-cta" id="about-less">
+                    <i class="fa-solid fa-chevron-up fa-xl" style="color: #ffffff;"></i>
+                    <p class="p-2">show less</p>
+                </button>
+            </div>
         </header>
         <main class="project-content">
             <div class="project-txt">
@@ -54,49 +55,50 @@
             <div class="card-container">
                 <div class="web-card">
                     <div>
-                        <a href="https://marcosaba71ni.github.io/HTML.CSS.MarcoSabatini/">
+                        <a href="https://marcosaba71ni.github.io/HTML.CSS.MarcoSabatini/" target="_blank" rel="noopener noreferrer">
                             <img class="web-img" alt="rainy days image" src="images/Rainy Days Image.png">
                         </a>
                     </div>
                     <div class="card-text">
-                        <a href="https://marcosaba71ni.github.io/HTML.CSS.MarcoSabatini/"><h3>Rainy Days</h3></a>
+                        <a href="https://marcosaba71ni.github.io/HTML.CSS.MarcoSabatini/" target="_blank" rel="noopener noreferrer"><h3>Rainy Days</h3></a>
                         <p>E-commerce project </p>
                         <p class="p-2">HTML/CSS</p>
-                        <a href="https://github.com/MarcoSaba71ni/HTML.CSS.MarcoSabatini">
+                        <a href="https://github.com/MarcoSaba71ni/HTML.CSS.MarcoSabatini" target="_blank" rel="noopener noreferrer">
                             <p class="p-link">Github Repository</p>
                         </a>
                     </div>
                 </div>
                 <div class="web-card">
                     <div>
-                        <a href="https://marcosaba71ni.github.io/Semester_Project-MS/">
-                            <img class="web-img" alt="science museum image" src="images/science museum image.png">
+                        <a href="https://github.com/NoroffFEU/edu-gate" target="_blank" rel="noopener noreferrer">
+                            <img class="web-img" alt="edugate img" src="images/edugate-interface.png">
                         </a>
                     </div>
                     <div class="card-text">
-                        <a href="https://marcosaba71ni.github.io/Semester_Project-MS/">
-                            <h3>Science Museum</h3>
+                        <a href="https://github.com/NoroffFEU/edu-gate" target="_blank" rel="noopener noreferrer">
+                            <h3>Edugate</h3>
                         </a>
-                        <p>Science Museum project</p>
-                        <p class="p-2">HTML/CSS</p>
-                        <a href="https://github.com/MarcoSaba71ni/Semester_Project-MS">
+                        <p>Result management system to schools expecially high school </p>
+                        <p class="p-2">HTML/Tailwind CSS</p>
+                        <a href="https://github.com/NoroffFEU/edu-gate" target="_blank" rel="noopener noreferrer">
                             <p class="p-link">Github Repository</p>
                         </a>
+                        <p>Owned by Noroff</p>
                     </div>
                 </div>
                 <div class="web-card">
                     <div>
-                        <a href="https://marcosaba71ni.github.io/JS-SportAgency/">
+                        <a href="https://marcosaba71ni.github.io/JS-SportAgency/" target="_blank" rel="noopener noreferrer">
                             <img class="web-img" alt="team turco image" src="images/team turco image.png">
                         </a>
                     </div>
                     <div class="card-text">
-                        <a href="https://marcosaba71ni.github.io/JS-SportAgency/">
+                        <a href="https://marcosaba71ni.github.io/JS-SportAgency/" target="_blank" rel="noopener noreferrer">
                             <h3>Team Turco</h3>                        
                         </a>
                         <p>Athlete Management Project</p>
                         <p class="p-2">HTML/CSS/JavaScript</p>
-                        <a href="https://github.com/MarcoSaba71ni/JS-SportAgency.git">
+                        <a href="https://github.com/MarcoSaba71ni/JS-SportAgency.git" target="_blank" rel="noopener noreferrer">
                             <p class="p-link">Github Repository</p>
                         </a>
                     </div>
@@ -126,7 +128,7 @@
                     <h2>Marco Sabatini currently defends Arameiska-Syrianska IF <span class="fi fi-se"></span></h2>
                     <p class="p-2">His career has taken him across five countries, shaping both his playing style and his perspective through a rich mix of international football experiences 🌍⚽</p>
                     <div class="highlight-div">
-                        <p class="p-3">Sabatini's highlight video 🎥: <a href="https://youtu.be/QvHW5OSV0wA?si=8QhJ--pKeINN7Omp">click here.</a></p>
+                        <p class="p-3">Sabatini's highlight video 🎥: <a href="https://youtu.be/QvHW5OSV0wA?si=8QhJ--pKeINN7Omp" target="_blank" rel="noopener noreferrer">click here.</a></p>
                     </div>
                 </div>  
                 <div class="exp-content">
