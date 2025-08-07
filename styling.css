@@ -157,11 +157,24 @@ header h3 {
     display: none;
 }
 
+.div-more {
+    display: flex;
+    justify-content: center;
+}
+
+#div-more,
+#less-about {
+  justify-content: center;
+  align-items: center;
+}
+
 .more-btn {
     text-align: center;
+    width: 100%;
 }
 
 .less-about {
+    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
